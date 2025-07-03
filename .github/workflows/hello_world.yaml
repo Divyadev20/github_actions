@@ -5,7 +5,7 @@ on:
      - main
 jobs:
   first_hello_world_job:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps:
       - name: checkout one
         uses: actions/checkout@v3
